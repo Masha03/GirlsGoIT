@@ -1,0 +1,59 @@
+.settings-bar {
+    background-size: 100%;
+    padding: 85px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-bar h1{
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.settings-bar button{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    background: #2EA1f8; 
+    max-height: 55px;
+    margin: 10px;
+    padding: 21px 28px;
+    border-radius: 4px;
+}
+
+.settings-boxes {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #a9a9a9;
+    display: flex;
+    
+}
+
+.settings-boxes li{
+    list-style-type: none;
+}
+
+@media screen and (max-width: 570px) {
+    .settings-bar{
+        padding: 50px 30px;
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .settings-bar h1{
+        font-size: 40px;
+    }
+}
+
+
+
+
